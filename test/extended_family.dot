@@ -1,0 +1,19 @@
+digraph g { 
+graph [];
+    0 [ shape="circle" ,style="filled" ,color="green" ,label="Bim"  ];
+    1 [ shape="circle" ,style="filled" ,color="deeppink" ,label="Bom"  ];
+    2 [ shape="circle" ,style="filled" ,color="red" ,label="Bam"  ];
+    3 [ shape="ellipse" ,style="filled" ,color="blue" ,label="Mother"  ];
+    4 [ shape="ellipse" ,style="filled" ,color="coral" ,label="Father"  ];
+    5 [ shape="rectangle" ,label="Granny"  ];
+    6 [ shape="rectangle" ,label="GrangPa
+"  ];
+    3 -> 0 [ comment="7"  ];
+    4 -> 0 [ comment="8"  ];
+    4 -> 1 [ comment="9"  ];
+    3 -> 2 [ comment="10"  ];
+    4 -> 2 [ comment="11"  ];
+    3 -> 1 [ comment="12"  ];
+    5 -> 4 [ comment="13"  ];
+    6 -> 4 [ comment="14"  ];
+}
